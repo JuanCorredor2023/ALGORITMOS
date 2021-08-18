@@ -25,7 +25,7 @@ function tarjetas(){
               <p><b>${data.quote}</b></p>
             </div>
           </div>`
-          console.log(data)
+          
           document.getElementById('cardContainer').innerHTML += card
             }
     
