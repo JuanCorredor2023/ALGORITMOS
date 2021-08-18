@@ -1,50 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-    <title>Rick and Morty exercise</title>
+    <title>Deliverable - August 17</title>
 </head>
-
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-dark ">
+        <span class="navbar-brand mb-0 h1 text-light">Deliverable August 17 - BIT</span>
+      </nav>
 
-    <div class="container p-5 d-flex justify-content-center flex-column ">
-        <h1 class="text-white text-center">Rick and Morty Random Characters</h1>
-        <form>
-            <div class="form-group">
-                <label for="name" class="">Cuantos personajes quieres ver?</label>
-                <input type="number" class="form-control" id="numCharacters">
-            </div>
-        </form>
+
+
+
+<!-- kanye API -->
+<h3>Example 1 - Kanye West Quote Generator</h3>
+<div class="container text-center" id="quote">
+</div>
+    <div class="text-center" id="kanye-pic">     
+</div>
+<div class="text-center">
+    <button type="button" class="btn btn-outline-dark" id="get-kanye">Quote</button>
+</div>
+
+
+<!-- Dog API -->
+<h3>Example 2 - Random Dog Photo Generator</h3>
+<div class="text-center results">
+	<div id="dogResult" class="result text-center">
+	</div>
+</div>
+
+<div class=" text-center buttons">
+	<button class="btn btn-outline-dark dogButton" id="dogButton">Random Dog</button>
+</div>
+
+
+<!-- Cat API -->
+<h3>Example 3 - Random Cat Photo Generator</h3>
+<div class="text-center results">
+    <div id="catResult" class="result text-center">
     </div>
+</div>
 
-    <div class="container p-5 d-flex justify-content-center flex-column">
-        <button onclick="tarjetas()" class="btn btn-success my-2">Generar tarjetas</button>
-    </div>
-
-    <div class="container d-flex flex-wrap" id="cardContainer">
-
-    </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="./script.js"></script>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+<div class=" text-center buttons">
+<button class="btn btn-outline-dark catButton" id="catButton">Random Cat</button>
+</div>
 
 
+
+
+
+   
+
+    
+
+<!-- My JS -->
+<script src="./script.js"></script>
+
+<!-- JS Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+table {
+   margin-top: .5rem;
+    
+}
+#quote {
+   margin-top: 20px;
+}
+
+#get-kanye{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.dog_result{
+   margin-top: 20px;
+}
+.dogButton{
+   margin-top: 20px;
+}
