@@ -19,10 +19,10 @@ function tarjetas(){
     
         const print = (data)=>{
             let card = `<div class="card" style="width: 18rem;">
-            <img src="${data.image}" class="card-img-top" alt="...">
+            <img src="${data[0].image}" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">${data.character}</p>
-              <p><b>${data.quote}</b></p>
+              <p class="card-text">${data[0].character}</p>
+              <p><b>${data[0].quote}</b></p>
             </div>
           </div>`
           
